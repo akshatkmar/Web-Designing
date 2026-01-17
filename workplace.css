@@ -1,0 +1,182 @@
+*{
+            text-decoration: none;
+        }
+        body{
+            background-color: pink;
+        }
+        .navbar{
+            background: darkslategrey;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-right: 25px;
+            padding-left: 35px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px;
+            font-weight: 600;
+            color: palevioletred;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button{
+            background-color: palevioletred;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 100px;
+            
+            
+        }
+        button a{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+.hero {
+    height: 70vh; /* height of the background section */
+    background-image: url("https://4kwallpapers.com/images/wallpapers/stranger-things-1920x1080-18624.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); 
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero p {
+    font-size: 1.5rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container
+{
+    display: inline-block;
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right:40px;
+}
+.productcard
+{
+    background: #fff;
+    border: 1px solid #e0e4ef;
+    padding: 12px;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.productimage
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.producttitle
+{
+    font-size: 28px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.productdisc
+{
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price
+{
+    font-weight: 700;
+    color: #0b6b3a;
+    margin-right: 8px;
+    text-align: center;
+    display: inline;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.oldprice
+{
+    font-weight: 700;
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 8px;
+    text-align: center;
+    display: inline;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addcart
+{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background: palevioletred;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    background-color: darkslategrey;
+    padding: 100px;
+    margin-top: 25px;
+}
+.one{
+    color: palevioletred;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.two{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
