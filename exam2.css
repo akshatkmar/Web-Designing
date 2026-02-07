@@ -1,0 +1,42 @@
+.one ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: grey;
+    padding: 50px;
+}
+.one li{
+    display: inline;
+    margin: 20px;
+}
+.one a {
+    text-decoration: none;
+}
+.two ul{
+    list-style: none;
+    padding: 0;
+}
+.two li{
+    display: inline;
+    margin: 20px;
+}
+.two a{
+    text-decoration: none;
+    padding: 10px;
+    background: lightblue;
+    border: 2px solid black;
+}
+.three ul{
+    list-style: none;
+    padding: 0;
+}
+.three li{
+    display: inline;
+    margin: 20px;
+}
+.three a{
+    text-decoration: none;
+    padding: 10px;
+    background: yellow;
+    border: 2px solid black;
+}
