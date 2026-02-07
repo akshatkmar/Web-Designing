@@ -1,0 +1,84 @@
+.siteheader
+{
+    display: block;
+    background: #222;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container
+{
+    max-width: 420px;
+    margin: 0 auto;
+}
+.productcard
+{
+    background: #fff;
+    border: 1px solid #e0e4ef;
+    padding: 12px;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.productimage
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.producttitle
+{
+    font-size: 28px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.productdisc
+{
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price
+{
+    font-weight: 700;
+    color: #0b6b3a;
+    margin-right: 8px;
+    text-align: center;
+    display: inline;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.oldprice
+{
+    font-weight: 700;
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 8px;
+    text-align: center;
+    display: inline;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addcart
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0066cc;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
