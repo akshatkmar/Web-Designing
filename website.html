@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Interactive Site</title>
+  <style>
+    body{
+  text-align:center;
+  font-family:Arial;
+}
+button{
+  padding:10px 20px;
+  cursor:pointer;
+}
+  </style>
+
+  <script>
+function changeText(){
+  document.getElementById("text").innerHTML = "Button Clicked!";
+}
+</script>
+
+</head>
+<body>
+
+<h1 id="text">Hello!</h1>
+<button onclick="changeText()">Click Me</button>
+
+<script src="script.js"></script>
+</body>
+</html>
